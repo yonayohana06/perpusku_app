@@ -104,15 +104,15 @@ Sebelum menjalankan aplikasi, Anda **wajib** menyesuaikan alamat IP server agar 
 
 * **Android Emulator:** Gunakan IP loopback khusus Android untuk mendeteksi localhost komputer Anda.
   ```dart
-  static const String baseUrl = '[http://10.0.2.2:8001/api/v1](http://10.0.2.2:8001/api/v1)';
+  static const String baseUrl = 'http://10.0.2.2:8001/api/v1';
   ```
 * **iOS Simulator / Mac / Web:** Anda bisa langsung mengarahkannya ke localhost murni.
   ```dart
-  static const String baseUrl = '[http://127.0.0.1:8001/api/v1](http://127.0.0.1:8001/api/v1)';
+  static const String baseUrl = 'http://127.0.0.1:8001/api/v1';
   ```
 * **Perangkat Fisik (HP Asli via Kabel):** Pastikan HP dan Laptop Anda berada dalam satu jaringan Wi-Fi yang sama. Cari tahu IP lokal laptop Anda (via `ipconfig` di Windows atau `ifconfig` di Mac/Linux), kemudian masukkan ke konfigurasi:
   ```dart
-  static const String baseUrl = '[http://119.168.1.5:8001/api/v1](http://119.168.1.5:8001/api/v1)'; // Contoh IP lokal
+  static const String baseUrl = 'http://119.168.1.5:8001/api/v1'; // Contoh IP lokal
   ```
 
 ### 4. Instalasi Dependency & Menjalankan Aplikasi
