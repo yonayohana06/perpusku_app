@@ -102,6 +102,12 @@ cd perpusku_app
 ### 3. Konfigurasi Endpoint API (PENTING!)
 Sebelum menjalankan aplikasi, Anda **wajib** menyesuaikan alamat IP server agar aplikasi Flutter dapat berkomunikasi dengan backend Golang. Buka file `lib/core/constants/api_endpoints.dart` dan sesuaikan variabel `baseUrl`:
 
+* **Base URL Railway:** Default baseUrl menggunalan endpoint api dari railway.
+  ```dart
+  static const String baseUrl = 'https://perpusku.up.railway.app/api/v1';
+  ```
+
+Jika mau gunakan API lokal bisa mengikuti setting berikut:
 * **Android Emulator:** Gunakan IP loopback khusus Android untuk mendeteksi localhost komputer Anda.
   ```dart
   static const String baseUrl = 'http://10.0.2.2:8001/api/v1';
