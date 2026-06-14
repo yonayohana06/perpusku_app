@@ -8,6 +8,20 @@
 **Perpusku** adalah aplikasi mobile manajemen perpustakaan skala *enterprise* yang dirancang dengan antarmuka modern dan arsitektur yang sangat tangguh (*Clean, Feature-First Architecture*). Aplikasi ini terintegrasi langsung dengan Backend RESTful API berbasis Golang.
 
 ---
+## Screenshot
+
+<!-- > _Tambahkan screenshot di sini setelah build_ -->
+
+| Dashboard | Detail Buku |
+|--------|--------|
+| [<img src="assets/dashboard.png" width="200">](assets/dashboard.png) | [<img src="assets/detail-buku.png" width="200">](assets/detail-buku.png) |
+
+
+| Dashboard Admin | Peminjaman | Denda | Master Data |
+|--------|--------|---------|---------|
+| [<img src="assets/dashboard-auth.png" height="300">](assets/dashboard-auth.png) | [<img src="assets/peminjaman.png" height="300">](assets/peminjaman.png) | [<img src="assets/denda.png" height="300">](assets/denda.png) | [<img src="assets/master-data.png" height="300">](assets/master-data.png) |
+
+---
 
 ## ✨ Fitur Utama
 
